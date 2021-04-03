@@ -7,8 +7,148 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "WebSocket/1.0.0": {
+        "dependencies": {
+          "System.IO.Ports": "6.0.0-preview.2.21154.6"
+        },
         "runtime": {
           "WebSocket.dll": {}
+        }
+      },
+      "Microsoft.Win32.Registry/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "System.Security.AccessControl": "6.0.0-preview.2.21154.6",
+          "System.Security.Principal.Windows": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "runtime.linux-arm.runtime.native.System.IO.Ports/6.0.0-preview.2.21154.6": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-arm64.runtime.native.System.IO.Ports/6.0.0-preview.2.21154.6": {
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.linux-x64.runtime.native.System.IO.Ports/6.0.0-preview.2.21154.6": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSystem.IO.Ports.Native.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "runtime.native.System.IO.Ports/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "runtime.linux-arm.runtime.native.System.IO.Ports": "6.0.0-preview.2.21154.6",
+          "runtime.linux-arm64.runtime.native.System.IO.Ports": "6.0.0-preview.2.21154.6",
+          "runtime.linux-x64.runtime.native.System.IO.Ports": "6.0.0-preview.2.21154.6",
+          "runtime.osx-x64.runtime.native.System.IO.Ports": "6.0.0-preview.2.21154.6"
+        }
+      },
+      "runtime.osx-x64.runtime.native.System.IO.Ports/6.0.0-preview.2.21154.6": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libSystem.IO.Ports.Native.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "System.IO.Ports/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "6.0.0-preview.2.21154.6",
+          "runtime.native.System.IO.Ports": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Ports.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard2.0/System.IO.Ports.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          },
+          "runtimes/osx/lib/netstandard2.0/System.IO.Ports.dll": {
+            "rid": "osx",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          },
+          "runtimes/win/lib/netstandard2.0/System.IO.Ports.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Security.AccessControl/6.0.0-preview.2.21154.6": {
+        "dependencies": {
+          "System.Security.Principal.Windows": "6.0.0-preview.2.21154.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/6.0.0-preview.2.21154.6": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.15406"
+          }
         }
       }
     }
@@ -18,6 +158,69 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.Win32.Registry/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EkqgePfJDNZHGxqlWqhdFXA8m7gfYvexhfUvcctSpgMu/oud/gTQ1nsYzHi9CNoJLyaMCaLb6W8wt6EAYp4HQQ==",
+      "path": "microsoft.win32.registry/6.0.0-preview.2.21154.6",
+      "hashPath": "microsoft.win32.registry.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "runtime.linux-arm.runtime.native.System.IO.Ports/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kczs58/Y/1bdw1YTrOK5fxyxk0YVE1juJGtOfpYf9rkjA3T6ik2Z02C2hgYhTy8gidrULC2Mc40mHyb6ij/4Ag==",
+      "path": "runtime.linux-arm.runtime.native.system.io.ports/6.0.0-preview.2.21154.6",
+      "hashPath": "runtime.linux-arm.runtime.native.system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "runtime.linux-arm64.runtime.native.System.IO.Ports/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9PkbhkveOwqg4weXbCVhgpzs8eWPpBkT7USVLZ5pxu+vVyYMyt4jJ8QmPZ6mZ3bVqTWjNKB7BL30yI7tm7wl8w==",
+      "path": "runtime.linux-arm64.runtime.native.system.io.ports/6.0.0-preview.2.21154.6",
+      "hashPath": "runtime.linux-arm64.runtime.native.system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "runtime.linux-x64.runtime.native.System.IO.Ports/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vMvWYpnyqty22oJYOozS5C/2zXPBGi/NSjxkcjwCPMtJM3GqbJQNXUQUcxxttPO3R33hicv5yT337W1HbThtmA==",
+      "path": "runtime.linux-x64.runtime.native.system.io.ports/6.0.0-preview.2.21154.6",
+      "hashPath": "runtime.linux-x64.runtime.native.system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "runtime.native.System.IO.Ports/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rDVS/jCUxrsh7dAMzCHKmOSJbOMTGCHzjY9bGGn954pnb7OIo/rRRfFLtQrSrUzsWGy0f2wrRqMPfeLJeFoUgQ==",
+      "path": "runtime.native.system.io.ports/6.0.0-preview.2.21154.6",
+      "hashPath": "runtime.native.system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "runtime.osx-x64.runtime.native.System.IO.Ports/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ALWbOahc/j4k8MClbodEl0j+tADlqdaApe2qR/NkcDc2EQQJ0TDVGSg+T/3sCrz/vFND4LEW4uUqB/5oSL6Bzw==",
+      "path": "runtime.osx-x64.runtime.native.system.io.ports/6.0.0-preview.2.21154.6",
+      "hashPath": "runtime.osx-x64.runtime.native.system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.IO.Ports/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LDWnP2N4B1q34pthVg0RCcu3oJM0DCMa1n/GW60q1G+ExWJYTvlX8129OD//KCxfWuuGbyVwQlpHgz7JbfJXJQ==",
+      "path": "system.io.ports/6.0.0-preview.2.21154.6",
+      "hashPath": "system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Security.AccessControl/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kkm1j4dNf8RsV6lrJrWHCF3K+zXnPlvVWBE7fSXtbGNmwU23HghcsBi138/pH1Wk4eCZGki8mAVS6AjSEVlwXA==",
+      "path": "system.security.accesscontrol/6.0.0-preview.2.21154.6",
+      "hashPath": "system.security.accesscontrol.6.0.0-preview.2.21154.6.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/6.0.0-preview.2.21154.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t4WCYsdAia8A9jwU55Xg0slxdbnMHLXceyCPc9DZuDVs4jhZzYouFRwNaO6d5RiIi1TTYlZNGbn4SwW+xuLq+g==",
+      "path": "system.security.principal.windows/6.0.0-preview.2.21154.6",
+      "hashPath": "system.security.principal.windows.6.0.0-preview.2.21154.6.nupkg.sha512"
     }
   }
 }

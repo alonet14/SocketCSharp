@@ -18,14 +18,11 @@ namespace WebSocket
         {
             if (String.IsNullOrEmpty(Prefix))
             {
-                throw new InvalidOperationException("S")
+                throw new InvalidOperationException("S");
             }
         }
 
-        protected WebServer()
-        {
-            
-        }
+        
         public void StartWebServer()
         {
             try

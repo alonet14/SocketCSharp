@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "vviPrrElzKoxOI2nkSP1ErU+SAqa3hMZlD8zK4ehwmRvZmGKgWexijrx535B5iKrRJnW/NwzQImJrmO6ANNsSw==",
+  "dgSpecHash": "+fj1CiaSbrVjM2Cbi3bMysZ551oxIDRaJN/RZntRaJUj2p/YzdFyuFaqXKHIdZ9mGIcO4RK1PhZGWKfBktg2kA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\RiderProjects\\ConsoleApp1\\WebSocket\\WebSocket.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.win32.registry\\6.0.0-preview.2.21154.6\\microsoft.win32.registry.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\6.0.0-preview.2.21154.6\\runtime.linux-arm.runtime.native.system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\6.0.0-preview.2.21154.6\\runtime.linux-arm64.runtime.native.system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\6.0.0-preview.2.21154.6\\runtime.linux-x64.runtime.native.system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.native.system.io.ports\\6.0.0-preview.2.21154.6\\runtime.native.system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\6.0.0-preview.2.21154.6\\runtime.osx-x64.runtime.native.system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.io.ports\\6.0.0-preview.2.21154.6\\system.io.ports.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.security.accesscontrol\\6.0.0-preview.2.21154.6\\system.security.accesscontrol.6.0.0-preview.2.21154.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.security.principal.windows\\6.0.0-preview.2.21154.6\\system.security.principal.windows.6.0.0-preview.2.21154.6.nupkg.sha512"
+  ],
   "logs": []
 }

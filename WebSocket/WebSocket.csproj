@@ -3,10 +3,20 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <NeutralLanguage>en-CA</NeutralLanguage>
     </PropertyGroup>
 
     <ItemGroup>
       <Folder Include="Controller" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="System" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.IO.Ports" Version="6.0.0-preview.2.21154.6" />
     </ItemGroup>
 
 </Project>

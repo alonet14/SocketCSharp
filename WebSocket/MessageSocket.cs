@@ -67,12 +67,13 @@ namespace WebSocket
             return page;
         }
 
-        public static void Main(string[] args)
-        {
-            WebServer webServer = new WebServer();
-            webServer.StartWebServer();
-            
-          
-        }
+        // public static void Main(string[] args)
+        // {
+        //     
+        //     WebServer webServer = new WebServer();
+        //     webServer.StartWebServer();
+        //     
+        //   
+        // }
     }
 }
