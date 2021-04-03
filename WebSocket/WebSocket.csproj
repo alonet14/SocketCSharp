@@ -8,10 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Controller" />
-    </ItemGroup>
-
-    <ItemGroup>
       <Reference Include="System" />
     </ItemGroup>
 
