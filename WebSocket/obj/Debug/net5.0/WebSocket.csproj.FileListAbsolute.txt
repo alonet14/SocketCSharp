@@ -1,0 +1,16 @@
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\bin\Debug\net5.0\WebSocket.exe
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\bin\Debug\net5.0\WebSocket.deps.json
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\bin\Debug\net5.0\WebSocket.runtimeconfig.json
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\bin\Debug\net5.0\WebSocket.runtimeconfig.dev.json
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\bin\Debug\net5.0\WebSocket.dll
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\bin\Debug\net5.0\ref\WebSocket.dll
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\bin\Debug\net5.0\WebSocket.pdb
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\obj\Debug\net5.0\WebSocket.csprojAssemblyReference.cache
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\obj\Debug\net5.0\WebSocket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\obj\Debug\net5.0\WebSocket.AssemblyInfoInputs.cache
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\obj\Debug\net5.0\WebSocket.AssemblyInfo.cs
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\obj\Debug\net5.0\WebSocket.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\obj\Debug\net5.0\WebSocket.dll
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\obj\Debug\net5.0\ref\WebSocket.dll
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\obj\Debug\net5.0\WebSocket.pdb
+C:\Users\Administrator\RiderProjects\ConsoleApp1\WebSocket\obj\Debug\net5.0\WebSocket.genruntimeconfig.cache
