@@ -30,7 +30,7 @@ namespace WebSocket
             // Set the read/write timeouts
             _serialPort.ReadTimeout = 500;
             _serialPort.WriteTimeout = 500;
-
+            //ávsadvs
             _serialPort.Open();
             _continue = true;
             readThread.Start();
